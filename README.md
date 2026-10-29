@@ -38,19 +38,27 @@ My professional focus is on making cloud infrastructure **repeatable, reviewable
 
 ```mermaid
 flowchart TB
-    A[Ashwani Jaiswal · Engineering Portfolio] --> B[Azure Platform Engineering]
-    A --> C[Infrastructure as Code]
-    A --> D[Secure DevSecOps CI/CD]
-    A --> E[Containers & GitOps]
-    A --> F[SRE & Observability]
-    A --> G[FinOps & Governance]
+    ROOT(["⚡ Ashwani Jaiswal · Cloud & DevSecOps Architecture"]):::rootNode
 
-    B --> H[CAF Landing Zones · Hub-and-Spoke · PIM · Policy]
-    C --> I[Terraform · Remote Blob State · Lease Locking]
-    D --> J[GitLeaks · Checkov · Trivy · Infracost Gates]
-    E --> K[AKS Multi-Zone · Docker · Cosign Signing]
-    F --> L[Azure Monitor · AMA / DCR · Metrics · Alerts]
-    G --> M[Infracost · Idle Resource Sweepers · Reserved Instances]
+    ROOT --> CLOUD["☁️ Azure Platform Engineering"]:::categoryNode
+    ROOT --> IAC["🏗️ Infrastructure as Code"]:::categoryNode
+    ROOT --> SEC["🛡️ Secure DevSecOps CI/CD"]:::categoryNode
+    ROOT --> K8S["📦 Containers & GitOps"]:::categoryNode
+    ROOT --> SRE["📊 SRE & Observability"]:::categoryNode
+    ROOT --> FIN["💸 FinOps & Governance"]:::categoryNode
+
+    CLOUD --> C1["🏛️ CAF Landing Zones<br/>• Hub-Spoke VNets<br/>• Entra ID PIM &amp; Policies"]:::leafNode
+    IAC --> I1["🧱 Modular Terraform<br/>• Remote Blob Lease Locking<br/>• Nightly Drift Detection"]:::leafNode
+    SEC --> S1["🔍 Shift-Left Gates<br/>• GitLeaks &amp; Checkov<br/>• Trivy CVE &amp; Cosign Signing"]:::leafNode
+    K8S --> K1["☸️ Hardened AKS<br/>• Multi-AZ Node Pools<br/>• ArgoCD GitOps Delivery"]:::leafNode
+    SRE --> R1["📈 Enterprise Monitoring<br/>• Azure Monitor &amp; AMA/DCR<br/>• Prometheus &amp; Alerts"]:::leafNode
+    FIN --> F1["💰 Cloud Economics<br/>• Infracost PR Gates<br/>• Serverless Waste Sweepers"]:::leafNode
+
+    classDef rootNode fill:#071a2f,stroke:#00D4FF,stroke-width:2.5px,color:#ffffff,font-weight:bold,font-size:15px;
+    classDef categoryNode fill:#0a192f,stroke:#0066CC,stroke-width:1.8px,color:#00D4FF,font-weight:600,font-size:13px;
+    classDef leafNode fill:#050c18,stroke:#1e293b,stroke-width:1px,color:#cbd5e1,font-size:11px;
+
+    linkStyle default stroke:#0066CC,stroke-width:1.5px;
 ```
 
 ---
