@@ -78,24 +78,15 @@ flowchart TB
 
 ---
 
-## 🏅 Microsoft Certifications Track
-
-- **AZ-400** — Designing and Implementing Microsoft DevOps Solutions
-- **AZ-305** — Designing Microsoft Azure Infrastructure Solutions
-- **AZ-500** — Microsoft Azure Security Technologies
-- **AZ-104** — Microsoft Azure Administrator
-- **CKA** — Certified Kubernetes Administrator (Linux Foundation)
-
----
-
 ## 🚀 Featured Projects
 
-### 1. 📊 [Enterprise SRE Observability & Incident Response Platform](https://github.com/iashwanijaiswal/enterprise-sre-observability-platform)
-A comprehensive observability and reliability engineering platform integrated with Azure Monitor and Prometheus. Features custom KQL dashboards, Grafana visualization, Data Collection Rules (DCR) for log tuning, automated alert routing to Teams/Slack, and documented incident runbooks with defined SLI/SLO targets.
+### 1. 🧱 [Azure Enterprise Terraform Network & Dynamic Security Platform](https://github.com/iashwanijaiswal/azure-enterprise-terraform-modules)
+A modular, production-ready Infrastructure as Code repository implementing **reusable child modules**, complex **`map(object({...}))`** data structures, and **`dynamic "security_rule"`** blocks. Automatically configures segmented Azure VNets, subnets, and dynamic zero-trust Network Security Groups with an automated GitHub Actions CI pipeline running Checkov security scans.
 
-- [Repository](https://github.com/iashwanijaiswal)
-- [Prometheus & Alert Rules](https://github.com/iashwanijaiswal)
-- [Incident Response Runbook](https://github.com/iashwanijaiswal)
+- [Repository](https://github.com/iashwanijaiswal/azure-enterprise-terraform-modules)
+- [Dynamic NSG Module](https://github.com/iashwanijaiswal/azure-enterprise-terraform-modules/tree/main/modules/network_security_group)
+- [CI/CD Workflow Runs](https://github.com/iashwanijaiswal/azure-enterprise-terraform-modules/blob/main/.github/workflows/terraform-ci.yml)
+- [Architecture Documentation](https://github.com/iashwanijaiswal/azure-enterprise-terraform-modules/blob/main/README.md)
 
 ### 2. 🛡️ [Azure Enterprise DevSecOps Platform](https://github.com/iashwanijaiswal/azure-enterprise-devsecops-platform)
 A multi-stage, zero-trust delivery engine built with **Azure Pipelines & GitHub Actions**. Automatically executes pre-commit formatting, GitLeaks secret detection, Checkov IaC security benchmarks, Trivy container CVE scans, Infracost budget estimations, and cryptographic image signing via Cosign.
