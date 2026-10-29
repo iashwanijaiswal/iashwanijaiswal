@@ -91,44 +91,24 @@ A modular, production-ready Infrastructure as Code repository implementing **reu
 ### 2. 🛡️ [Azure Enterprise DevSecOps Platform](https://github.com/iashwanijaiswal/azure-enterprise-devsecops-platform)
 A multi-stage, zero-trust delivery engine built with **Azure Pipelines & GitHub Actions**. Automatically executes pre-commit formatting, GitLeaks secret detection, Checkov IaC security benchmarks, Trivy container CVE scans, Infracost budget estimations, and cryptographic image signing via Cosign.
 
-- [Repository](https://github.com/iashwanijaiswal)
-- [CI/CD Workflow Definitions](https://github.com/iashwanijaiswal)
-- [Threat Model & Security Policy](https://github.com/iashwanijaiswal)
+- [Repository](https://github.com/iashwanijaiswal/azure-enterprise-devsecops-platform)
+- [Azure DevOps Pipeline Definition](https://github.com/iashwanijaiswal/azure-enterprise-devsecops-platform/blob/main/azure-pipelines.yml)
+- [STRIDE Threat Model](https://github.com/iashwanijaiswal/azure-enterprise-devsecops-platform/blob/main/docs/threat-model.md)
+- [Operations & Remediation Runbook](https://github.com/iashwanijaiswal/azure-enterprise-devsecops-platform/blob/main/docs/operations-runbook.md)
 
 ### 3. ☁️ [Azure Production Cloud Adoption Framework (CAF) Landing Zone](https://github.com/iashwanijaiswal/azure-caf-production-landing-zone)
 Enterprise Terraform implementation of the Microsoft Cloud Adoption Framework (CAF). Configures Tenant Root Management Group hierarchies, Platform MGs (Identity, Connectivity, Management), and Workload Landing Zones (Corp, Online, Sandbox) with centralized Azure Firewall Premium inspection and non-overlapping CIDRs.
 
-- [Repository](https://github.com/iashwanijaiswal)
-- [Terraform Modular Architecture](https://github.com/iashwanijaiswal)
-- [Drift Detection Workflow](https://github.com/iashwanijaiswal)
+- [Repository](https://github.com/iashwanijaiswal/azure-caf-production-landing-zone)
+- [Terraform Hub Architecture](https://github.com/iashwanijaiswal/azure-caf-production-landing-zone/blob/main/main.tf)
+- [Scheduled Drift Detection Workflow](https://github.com/iashwanijaiswal/azure-caf-production-landing-zone/blob/main/.github/workflows/drift-detection.yml)
 
-### 4. 🏢 [Azure Enterprise 3-Tier Zero-Trust Architecture](https://github.com/iashwanijaiswal/azure-enterprise-3-tier-architecture)
-A production-ready reference architecture deploying segmented Web, App, and Database tiers across isolated subnets. Integrates Azure Application Gateway with WAF, AKS private clusters, and Azure SQL via Private Endpoints—completely eliminating public IP exposure.
-
-- [Repository](https://github.com/iashwanijaiswal)
-- [Network Segmentation Guide](https://github.com/iashwanijaiswal)
-- [Validation & Smoke Tests](https://github.com/iashwanijaiswal)
-
-### 5. 💸 [Serverless Azure FinOps & Cloud Waste Eliminator](https://github.com/iashwanijaiswal/azure-finops-waste-eliminator)
+### 4. 💸 [Serverless Azure FinOps & Cloud Waste Eliminator](https://github.com/iashwanijaiswal/azure-finops-waste-eliminator)
 An event-driven serverless FinOps automation deployed on Azure Functions. Automatically detects and alerts on orphaned managed disks, unassociated public IPs, and obsolete snapshots, while enforcing business-hours auto-shutdown for non-production environments to slash cloud spend by 30%+.
 
-- [Repository](https://github.com/iashwanijaiswal)
-- [Cost Optimization Runbook](https://github.com/iashwanijaiswal)
-- [Infracost PR Automation](https://github.com/iashwanijaiswal)
-
-### 6. 🔄 [Azure Terraform Modular CI/CD Engine](https://github.com/iashwanijaiswal/azure-terraform-modular-cicd)
-A battle-tested CI/CD framework for managing Terraform at enterprise scale. Implements remote state backend locking using Azure Blob Storage leases, automated plan generation, and scheduled night pipelines for continuous state drift detection (`terraform plan -detailed-exitcode`).
-
-- [Repository](https://github.com/iashwanijaiswal)
-- [Pipeline Configuration](https://github.com/iashwanijaiswal)
-- [State Locking & Security Spec](https://github.com/iashwanijaiswal)
-
-### 7. 🐳 [Hardened Container & Kubernetes (AKS) GitOps Delivery](https://github.com/iashwanijaiswal/hardened-aks-gitops-delivery)
-Container-oriented GitOps delivery using ArgoCD on Azure Kubernetes Service (AKS). Enforces distroless base images, Syft SBOM generation, Falco runtime anomaly detection, and automated canary deployments.
-
-- [Repository](https://github.com/iashwanijaiswal)
-- [Container Security Checklist](https://github.com/iashwanijaiswal)
-- [GitOps Deployment Manifests](https://github.com/iashwanijaiswal)
+- [Repository](https://github.com/iashwanijaiswal/azure-finops-waste-eliminator)
+- [FinOps Audit Engine](https://github.com/iashwanijaiswal/azure-finops-waste-eliminator/blob/main/finops_sweeper.py)
+- [Cost Optimization Runbook](https://github.com/iashwanijaiswal/azure-finops-waste-eliminator/blob/main/docs/cost-optimization-runbook.md)
 
 ---
 
