@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/animated-banner.svg" width="100%" alt="Ashwani Jaiswal - Animated Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:071A2F,45:0066CC,100:00D4FF&height=220&section=header&text=Ashwani%20Jaiswal&fontSize=44&fontColor=ffffff&animation=fadeIn" width="100%" alt="Ashwani Jaiswal - Azure DevOps & DevSecOps Engineer" />
 
 <a href="https://readme-typing-svg.demolab.com/">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=20&pause=1200&color=00D4FF&center=true&vCenter=true&width=900&height=55&lines=Azure+DevOps+Engineer+%C2%B7+DevSecOps+Engineer;Microsoft+Azure+%7C+Terraform+%7C+CI%2FCD;Zero-Trust+Security+%7C+Cloud+Adoption+Framework+(CAF);Platform+Engineering+%7C+Kubernetes+%7C+SRE" alt="Animated DevOps headline" />
